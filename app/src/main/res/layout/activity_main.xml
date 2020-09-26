@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background = "@drawable/Fondoactual"
+    tools:context=".Main">
+
+    <ImageView
+        android:layout_width="183dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:src="@drawable/Logoz" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@drawable/estilo1"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#F3EBEB"
+        android:textColorHighlight="#FFFBFB"
+        android:textColorHint="#FFFFFF" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@drawable/estilo1"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botom1"
+        android:layout_width="338dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_margin="14dp"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:hint="Ingresar"
+        android:textColor="#050505"
+        android:textColorHighlight="#FF0606"
+        android:textColorHint="#070707" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_margin="45dp"
+        android:text="forgot password"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_margin="-0dp"
+        android:text="Therms &amp; Conditions "
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
